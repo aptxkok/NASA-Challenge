@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2aaea1e2806243d0ac215e03eccce9d4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2aaea1e2806243d0ac215e03eccce9d4" ></div>
+        
+</body>
+<script>    
+    
+            var map_2aaea1e2806243d0ac215e03eccce9d4 = L.map(
+                "map_2aaea1e2806243d0ac215e03eccce9d4",
+                {
+                    center: [3.157548, 101.711635],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_62065777056345368b0aa557ab592290 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2aaea1e2806243d0ac215e03eccce9d4);
+        
+    
+            var circle_marker_007f52f413924532964ce1ae81e9956b = L.circleMarker(
+                [-22.11279896, 53.78326314],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2aaea1e2806243d0ac215e03eccce9d4);
+        
+    
+        var popup_3d2780c77f3341bf96b5e3c4233e6d92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b2e1ea93aed46cfb386fbe6cbc97e8d = $(`<div id="html_7b2e1ea93aed46cfb386fbe6cbc97e8d" style="width: 100.0%; height: 100.0%;">BIRD-MY (UiTMSAT-1)</div>`)[0];
+            popup_3d2780c77f3341bf96b5e3c4233e6d92.setContent(html_7b2e1ea93aed46cfb386fbe6cbc97e8d);
+        
+
+        circle_marker_007f52f413924532964ce1ae81e9956b.bindPopup(popup_3d2780c77f3341bf96b5e3c4233e6d92)
+        ;
+
+        
+    
+    
+            var circle_marker_50cb1ca03e0c4d3791f19cee1bf898c9 = L.circleMarker(
+                [0.01754969, 91.51314281],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2aaea1e2806243d0ac215e03eccce9d4);
+        
+    
+        var popup_9fb228205af74d03b422b672793ff73d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_873ec620204548e588d1e2be36553311 = $(`<div id="html_873ec620204548e588d1e2be36553311" style="width: 100.0%; height: 100.0%;">MEASAT 3B</div>`)[0];
+            popup_9fb228205af74d03b422b672793ff73d.setContent(html_873ec620204548e588d1e2be36553311);
+        
+
+        circle_marker_50cb1ca03e0c4d3791f19cee1bf898c9.bindPopup(popup_9fb228205af74d03b422b672793ff73d)
+        ;
+
+        
+    
+    
+            var circle_marker_3942a8a739aa4fb1a85f40987e0dcd88 = L.circleMarker(
+                [0.24719549, 93.69416297],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2aaea1e2806243d0ac215e03eccce9d4);
+        
+    
+        var popup_e509f6fe33c34c1d87411e07e7b4422d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79b38e36fa6a422a870221978d21971e = $(`<div id="html_79b38e36fa6a422a870221978d21971e" style="width: 100.0%; height: 100.0%;">RAZAKSAT</div>`)[0];
+            popup_e509f6fe33c34c1d87411e07e7b4422d.setContent(html_79b38e36fa6a422a870221978d21971e);
+        
+
+        circle_marker_3942a8a739aa4fb1a85f40987e0dcd88.bindPopup(popup_e509f6fe33c34c1d87411e07e7b4422d)
+        ;
+
+        
+    
+    
+            var circle_marker_862db6086a4c49f08cbde41214ead283 = L.circleMarker(
+                [0.04710476, 91.54432941],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2aaea1e2806243d0ac215e03eccce9d4);
+        
+    
+        var popup_715a324d33cf47ed9215d3bdd176a09d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcfa969f7771421094010c7c78ed7a4e = $(`<div id="html_bcfa969f7771421094010c7c78ed7a4e" style="width: 100.0%; height: 100.0%;">MEASAT 3A</div>`)[0];
+            popup_715a324d33cf47ed9215d3bdd176a09d.setContent(html_bcfa969f7771421094010c7c78ed7a4e);
+        
+
+        circle_marker_862db6086a4c49f08cbde41214ead283.bindPopup(popup_715a324d33cf47ed9215d3bdd176a09d)
+        ;
+
+        
+    
+    
+            var circle_marker_f83ab722913a4d4c978582a04219254a = L.circleMarker(
+                [0.01870566, 91.53692931],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2aaea1e2806243d0ac215e03eccce9d4);
+        
+    
+        var popup_79d77cd279f04be9acf4a9945499317e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a3bf3b95e944041bc54d4a7fa3a9345 = $(`<div id="html_0a3bf3b95e944041bc54d4a7fa3a9345" style="width: 100.0%; height: 100.0%;">MEASAT 3</div>`)[0];
+            popup_79d77cd279f04be9acf4a9945499317e.setContent(html_0a3bf3b95e944041bc54d4a7fa3a9345);
+        
+
+        circle_marker_f83ab722913a4d4c978582a04219254a.bindPopup(popup_79d77cd279f04be9acf4a9945499317e)
+        ;
+
+        
+    
+    
+            var circle_marker_1fc51c013806492fb309425cfcbb32b3 = L.circleMarker(
+                [30.16361394, -13.77342387],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2aaea1e2806243d0ac215e03eccce9d4);
+        
+    
+        var popup_bda8df1cf14b495e962e3db70740f3d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8196da46b262484b8b4df1089169d23a = $(`<div id="html_8196da46b262484b8b4df1089169d23a" style="width: 100.0%; height: 100.0%;">TIUNGSAT 1</div>`)[0];
+            popup_bda8df1cf14b495e962e3db70740f3d0.setContent(html_8196da46b262484b8b4df1089169d23a);
+        
+
+        circle_marker_1fc51c013806492fb309425cfcbb32b3.bindPopup(popup_bda8df1cf14b495e962e3db70740f3d0)
+        ;
+
+        
+    
+    
+            var circle_marker_dc366d98c4a34ca68026c767bb40011a = L.circleMarker(
+                [-4.74431412, 146.79336658],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2aaea1e2806243d0ac215e03eccce9d4);
+        
+    
+        var popup_7659eccefe384277acef5f1fa32a7ecc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e1aa2f55fbe42cd803b48fcf3621af9 = $(`<div id="html_3e1aa2f55fbe42cd803b48fcf3621af9" style="width: 100.0%; height: 100.0%;">MEASAT 2</div>`)[0];
+            popup_7659eccefe384277acef5f1fa32a7ecc.setContent(html_3e1aa2f55fbe42cd803b48fcf3621af9);
+        
+
+        circle_marker_dc366d98c4a34ca68026c767bb40011a.bindPopup(popup_7659eccefe384277acef5f1fa32a7ecc)
+        ;
+
+        
+    
+    
+            var circle_marker_9c8a3a05942148f6861c9b1313430784 = L.circleMarker(
+                [-8.95815058, 104.04777179],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2aaea1e2806243d0ac215e03eccce9d4);
+        
+    
+        var popup_33317f1d774446afb369bddf6c56ba24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_320e1c4396c94ebda43a2ea815c72c08 = $(`<div id="html_320e1c4396c94ebda43a2ea815c72c08" style="width: 100.0%; height: 100.0%;">AFRICASAT 1 (MEASAT 1)</div>`)[0];
+            popup_33317f1d774446afb369bddf6c56ba24.setContent(html_320e1c4396c94ebda43a2ea815c72c08);
+        
+
+        circle_marker_9c8a3a05942148f6861c9b1313430784.bindPopup(popup_33317f1d774446afb369bddf6c56ba24)
+        ;
+
+        
+    
+</script>
